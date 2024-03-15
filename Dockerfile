@@ -1,5 +1,7 @@
-FROM eclipse-temurin:17-jdk-focal
+FROM maven:3.8.3-openjdk-17
+
 WORKDIR /app
+
 COPY .mvn/ ./mvn
 COPY mvnw pom.xml ./
 
