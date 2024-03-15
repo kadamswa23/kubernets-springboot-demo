@@ -8,4 +8,4 @@ COPY mvnw pom.xml ./
 COPY src ./src
 RUN mvn clean package -DskipTests
 
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
